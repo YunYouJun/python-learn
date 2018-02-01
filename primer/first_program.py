@@ -1,11 +1,11 @@
 def isEqual(num1, num2):
-    if num1<num2:
+    if num1 < num2:
         print(str(num1) + ' is too small!')
         return False
-    if num1>num2:
+    elif num1 > num2:
         print(str(num1) + ' is too big!')
         return False
-    if num1 == num2:
+    else:
         print('Bingo!')
         return True
 
