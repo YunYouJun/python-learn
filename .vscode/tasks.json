@@ -5,8 +5,8 @@
   "tasks": [
     {
       "label": "python",
-      // "type": "shell",
       "command": "python",
+      // "type": "shell",
       "args": ["${file}"],
       "group": {
         "kind": "build",

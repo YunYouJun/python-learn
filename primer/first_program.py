@@ -10,6 +10,7 @@ def isEqual(num1, num2):
         return True
 
 from random import randint
+
 num = randint(1, 100)
 
 print('Guess what I think?')
